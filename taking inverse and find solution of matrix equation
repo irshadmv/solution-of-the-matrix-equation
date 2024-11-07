@@ -1,0 +1,6 @@
+import numpy as np
+a=np.array([[4,3],[5,2]])    
+b=np.array([[7,8],[1,6]])
+inva=np.linalg.inv(a)
+x=inva.dot(b)
+print(x)
